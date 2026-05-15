@@ -29,11 +29,13 @@ A complete end-to-end machine learning project that predicts the probability of 
 
 ## Dataset
 
-- **Source:** CDC Behavioral Risk Factor Surveillance System (BRFSS)
+- **Source:** CDC Behavioral Risk Factor Surveillance System (BRFSS) — provided by Edureka
 - **Size:** 253,680 records → 210,828 after deduplication
 - **Features:** 15 health/lifestyle indicators (HighBP, HighChol, BMI, Smoker, Age, etc.)
 - **Target:** `HeartDiseaseorAttack` (binary: 0 = No, 1 = Yes)
 - **Challenge:** Severely imbalanced — ~91% No Disease vs ~9% Heart Disease
+
+> The dataset file is not tracked in this repo due to size. Place `heartdisease.csv` inside a `data/` folder before running the notebook.
 
 ---
 

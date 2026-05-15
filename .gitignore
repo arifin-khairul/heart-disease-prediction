@@ -15,6 +15,9 @@ venv/
 .vscode/
 *.iml
 
+# Data (too large for git — see README for source)
+data/
+
 # OS
 .DS_Store
 Thumbs.db
